@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7196f643-04e2-4a81-a020-30269d8e60d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/dashBoardScene.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/Dash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/DashBoardSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/HelloApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +55,32 @@
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Fairooz",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Github/CSE214_TeamYOLO/WelfareAssociation"
+    "last_opened_file_path": "D:/Github/CSE214_TeamYOLO/WelfareAssociation",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.welfareassociation.welfareassociation.HelloApplication" />
+      <module name="WelfareAssociation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.welfareassociation.welfareassociation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
