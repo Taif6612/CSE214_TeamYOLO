@@ -11,22 +11,22 @@ public class DashBoardSceneController
     @javafx.fxml.FXML
     public void eventSafetyAndComplianceMouseOnClick(ActionEvent actionEvent) {
         // Code to nevigate to the Safety and Compliance Screen
-        system.out.println("Navigating to Event Safety and Compliance");
+        System.out.println("Navigating to Event Safety and Compliance");
     }
 
     @javafx.fxml.FXML
     public void eventPromotionMouseOnClick(ActionEvent actionEvent) {
-        system.out.println("Navigating to Event Promotion");
+        System.out.println("Navigating to Event Promotion");
     }
 
     @javafx.fxml.FXML
     public void postEventEvalutionMouseOnClick(ActionEvent actionEvent) {
-        system.out.println("Navigating to Post Event Evalution");
+        System.out.println("Navigating to Post Event Evalution");
     }
 
     @javafx.fxml.FXML
     public void eventLogisticsMouseOnClick(ActionEvent actionEvent) {
-        system.out.println("Navigating to eventLogistics");
+        System.out.println("Navigating to eventLogistics");
     }
 
     @javafx.fxml.FXML

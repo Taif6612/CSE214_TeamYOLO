@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7196f643-04e2-4a81-a020-30269d8e60d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/dashBoardScene.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/Dash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/DashBoardSceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/Enam.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -55,10 +59,11 @@
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Fairooz",
+    "git-widget-placeholder": "Enam",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Github/CSE214_TeamYOLO/WelfareAssociation",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
