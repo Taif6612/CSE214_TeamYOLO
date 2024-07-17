@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.welfareassociation.welfareassociation.BGMEAOfficer">
+   <children>
+      <Label layoutX="295.0" layoutY="22.0" prefHeight="33.0" prefWidth="162.0" text="BGMEA Officer Dashboard" />
+      <Button layoutX="19.0" layoutY="124.0" mnemonicParsing="false" text="BGMEA Communications" />
+      <Button layoutX="54.0" layoutY="175.0" mnemonicParsing="false" text="Inspections" />
+      <Button layoutX="31.0" layoutY="221.0" mnemonicParsing="false" text="Compliance Reports" />
+      <Button layoutX="35.0" layoutY="264.0" mnemonicParsing="false" text="Meeting Scheduler" />
+      <Button layoutX="51.0" layoutY="310.0" mnemonicParsing="false" text="Audit Liason" />
+      <Button layoutX="33.0" layoutY="355.0" mnemonicParsing="false" text="Compliance Training" />
+      <Button layoutX="42.0" layoutY="403.0" mnemonicParsing="false" text="BGMEA Queries" />
+      <Button layoutX="32.0" layoutY="451.0" mnemonicParsing="false" text="Regulatory Updates" />
+      <Line endX="100.0" layoutX="115.0" layoutY="93.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="120.0" layoutY="515.0" startX="-100.0" />
+      <Line endX="-101.5" endY="391.0" layoutX="322.0" layoutY="124.0" startX="-106.5" startY="-30.5" />
+   </children>
+</AnchorPane>

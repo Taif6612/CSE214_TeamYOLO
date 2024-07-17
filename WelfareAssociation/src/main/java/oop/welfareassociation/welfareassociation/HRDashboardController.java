@@ -1,6 +1,6 @@
 package oop.welfareassociation.welfareassociation;
 
-public class Enam
+public class HRDashboardController
 {
     @javafx.fxml.FXML
     public void initialize() {
