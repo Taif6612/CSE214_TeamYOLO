@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7196f643-04e2-4a81-a020-30269d8e60d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/EventPlanningSceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/eventLogisticsScene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/eventPlanningScene.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/DashBoardSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/DashBoardSceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/dash.fxml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/Enam.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +59,11 @@
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Enam",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Github/CSE214_TeamYOLO/WelfareAssociation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -95,14 +86,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -111,11 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721055954470</updated>
-      <workItem from="1721209745511" duration="4678000" />
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>
