@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="oop.welfareassociation.welfareassociation.AccountantDashboard">
+<children>
+    <MenuButton text="Accountant Actions" layoutX="50" layoutY="50">
+        <items>
+            <MenuItem fx:id="updateFinanceButton" text="Update Finance or Accounts Record" onAction="#handleUpdateFinance"/>
+            <MenuItem fx:id="makeStatementButton" text="Make Statement of Monthly and Yearly Cost" onAction="#handleMakeStatement"/>
+            <MenuItem fx:id="viewProfitLossButton" text="View Monthly Profit/Loss Charts" onAction="#handleViewProfitLoss"/>
+            <MenuItem fx:id="budgetManagementButton" text="Budget Management" onAction="#handleBudgetManagement"/>
+            <MenuItem fx:id="prepareSalariesButton" text="Prepare Salaries for Staff" onAction="#handlePrepareSalaries"/>
+            <MenuItem fx:id="sendRecommendationsButton" text="Send Financial Recommendations to President" onAction="#handleSendRecommendations"/>
+            <MenuItem fx:id="manageTransactionsButton" text="Manage Financial Transactions" onAction="#handleManageTransactions"/>
+            <MenuItem fx:id="viewRevenueButton" text="View Total Revenue" onAction="#handleViewRevenue"/>
+        </items>
+    </MenuButton>
+</children>
+</AnchorPane>
+
