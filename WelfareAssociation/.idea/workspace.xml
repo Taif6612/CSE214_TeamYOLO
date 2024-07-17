@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="7196f643-04e2-4a81-a020-30269d8e60d4" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/BudgetSceneController.java" afterDir="false" />
     </list>
+=======
+    <list default="true" id="7196f643-04e2-4a81-a020-30269d8e60d4" name="Changes" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,11 +63,18 @@
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< Updated upstream
     "git-widget-placeholder": "Fairooz",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Github/CSE214_TeamYOLO/WelfareAssociation",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.pluginManager"
+=======
+    "git-widget-placeholder": "Tasrif",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Github/CSE214_TeamYOLO/WelfareAssociation",
+    "node.js.selected.package.tslint": "(autodetect)"
+>>>>>>> Stashed changes
   }
 }]]></component>
   <component name="RunManager">
