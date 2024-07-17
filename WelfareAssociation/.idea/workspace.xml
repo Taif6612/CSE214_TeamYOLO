@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7196f643-04e2-4a81-a020-30269d8e60d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/BudgetSceneController.java" afterDir="false" />
+    <list default="true" id="7196f643-04e2-4a81-a020-30269d8e60d4" name="Changes" comment="compilerxmp as well as misc.xml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/StartupLgLoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/StartupLgLo.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +56,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2jHthWXbAflgMM76vds7YfpfzKn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,7 +67,7 @@
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Fairooz",
+    "git-widget-placeholder": "Taif",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Github/CSE214_TeamYOLO/WelfareAssociation",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -67,8 +75,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.welfareassociation.welfareassociation.HelloApplication" />
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.welfareassociation.welfareassociation.MainApplication" />
       <module name="WelfareAssociation" />
       <extension name="coverage">
         <pattern>
@@ -80,9 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="WelfareAssociation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="WelfareAssociation" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.MainApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -96,5 +117,9 @@
       <updated>1721055954470</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="compilerxmp as well as misc.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="compilerxmp as well as misc.xml" />
   </component>
 </project>
