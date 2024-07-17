@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="oop.welfareassociation.welfareassociation.StartupLgLoController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.welfareassociation.welfareassociation.StartupLgLoController">
+   <children>
+      <Label layoutX="91.0" layoutY="25.0" prefHeight="89.0" prefWidth="634.0" text="Welcome to the Welfare Association DashBoard Log in " textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="201.0" layoutY="130.0" prefHeight="100.0" prefWidth="100.0" text="Username:" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="201.0" layoutY="204.0" prefHeight="100.0" prefWidth="100.0" text="Password:" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="201.0" layoutY="275.0" prefHeight="100.0" prefWidth="100.0" text="Select the Type of user:" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userNamefxid" layoutX="334.0" layoutY="168.0" />
+      <TextField fx:id="passwordfxid" layoutX="334.0" layoutY="242.0" />
+      <ComboBox fx:id="userTypeComboBox" layoutX="333.0" layoutY="313.0" prefWidth="150.0" />
+      <Line endX="-99.5" endY="450.0" layoutX="130.0" layoutY="114.0" startX="-99.5" startY="-88.5" />
+      <Line endX="647.0" endY="-2.0" layoutX="131.0" layoutY="25.0" startX="-100.0" />
+      <Line endX="86.5" endY="-117.5" layoutX="691.0" layoutY="141.0" startX="86.5" startY="424.0" />
+      <Line endX="518.0" endY="10.5" layoutX="259.0" layoutY="554.0" startX="-228.0" startY="10.5" />
+      <Button layoutX="363.0" layoutY="390.0" mnemonicParsing="false" onAction="#logInOnActionButton" text="Log in" />
+      <Button layoutX="363.0" layoutY="501.0" mnemonicParsing="false" onAction="#signUp" text="Sign Up" />
+      <Label layoutX="339.0" layoutY="466.0" text="New around here?" />
+   </children>
+</AnchorPane>
