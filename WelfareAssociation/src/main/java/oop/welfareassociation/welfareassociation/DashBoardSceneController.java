@@ -9,39 +9,47 @@ public class DashBoardSceneController
     }
 
     @javafx.fxml.FXML
-    public void eventSafetyAndComplianceMouseOnClick(ActionEvent actionEvent) {
-        // Code to nevigate to the Safety and Compliance Screen
-        system.out.println("Navigating to Event Safety and Compliance");
+    private void eventSafetyAndComplianceMouseOnClick(ActionEvent actionEvent) {
+        loadScene("view/eventSafetyAndComplianceScene.fxml", "Event Safety and Compliance");
     }
 
     @javafx.fxml.FXML
-    public void eventPromotionMouseOnClick(ActionEvent actionEvent) {
-        system.out.println("Navigating to Event Promotion");
+    private void eventPromotionMouseOnClick(ActionEvent actionEvent) {
+        loadScene("view/eventPromotionScene.fxml", "Event Promotion");
     }
 
     @javafx.fxml.FXML
-    public void postEventEvalutionMouseOnClick(ActionEvent actionEvent) {
-        system.out.println("Navigating to Post Event Evalution");
+    private void postEventEvalutionMouseOnClick(ActionEvent actionEvent) {
+       loadScene ("view/postEventEvalutionScene.fxml"," Post Event Evalution");
     }
 
     @javafx.fxml.FXML
-    public void eventLogisticsMouseOnClick(ActionEvent actionEvent) {
-        system.out.println("Navigating to eventLogistics");
+    private void eventLogisticsMouseOnClick(ActionEvent actionEvent) {
+        loadScene("view/eventLogisticsScene.fxml","Event Logistics");
     }
 
     @javafx.fxml.FXML
-    public void eventBudgetMouseOnClick(ActionEvent actionEvent) {
+    private void eventBudgetMouseOnClick(ActionEvent actionEvent) {
+        loadScene("view/eventBudgetScene.fxml","Event Budget");
     }
 
     @javafx.fxml.FXML
-    public void eventPlanningMouseOnClick(ActionEvent actionEvent) {
+    private void eventPlanningMouseOnClick(ActionEvent actionEvent) {
+        loadScene("view/eventPlanningScene.fxml","Event Planning") ;
     }
 
     @javafx.fxml.FXML
-    public void eventRegistrationsMouseOnClick(ActionEvent actionEvent) {
+    private void eventRegistrationsMouseOnClick(ActionEvent actionEvent) {
+        loadScene("view/eventRegistrationsScene.fxml","Event Registrations") ;
     }
 
     @javafx.fxml.FXML
-    public void stakeHolderCoordinationMouseOnClick(ActionEvent actionEvent) {
+    private void stakeHolderCoordinationMouseOnClick(ActionEvent actionEvent) {
+        loadScene("view/stakeHolderCoordinationScene.fxml","Stake Holder Coordination") ;
     }
+    private void loadScene (String fxmiFile,String title) {
+
+    }
+
+
 }
