@@ -11,48 +11,48 @@ public class DashBoardSceneController
     @javafx.fxml.FXML
     public void eventSafetyAndComplianceMouseOnClick(ActionEvent actionEvent) {
 
-        loadScene("eventSafety.fxml");
+        System.out.println("eventSafetyAndComplianceScene.fxml");
 
     }
 
     @javafx.fxml.FXML
     public void eventPromotionMouseOnClick(ActionEvent actionEvent) {
-        loadScene("eventSafety.fxml");
+        System.out.println("eventPromotionScene.fxml");
 
     }
 
     @javafx.fxml.FXML
     public void postEventEvalutionMouseOnClick(ActionEvent actionEvent) {
-        loadScene("eventSafety.fxml");
+        System.out.println("postEventEvalutionScene.fxml");
     }
 
     @javafx.fxml.FXML
     public void eventLogisticsMouseOnClick(ActionEvent actionEvent) {
-        loadScene("eventLogisticsScene.fxml");
+        System.out.println("eventLogisticsScene.fxml");
 
     }
 
     @javafx.fxml.FXML
     public void eventBudgetMouseOnClick(ActionEvent actionEvent) {
-        loadScene("eventSafety.fxml");
+        System.out.println("eventBudgetScene.fxml");
 
     }
 
     @javafx.fxml.FXML
     public void eventPlanningMouseOnClick(ActionEvent actionEvent) {
-        loadScene("eventPlanningScene.fxml");
+        System.out.println("eventPlanningScene.fxml");
 
     }
 
     @javafx.fxml.FXML
     public void eventRegistrationsMouseOnClick(ActionEvent actionEvent) {
-        loadScene("eventSafety.fxml");
+        System.out.println("eventRegistrationsScene.fxml");
 
     }
 
     @javafx.fxml.FXML
     public void stakeHolderCoordinationMouseOnClick(ActionEvent actionEvent) {
-        loadScene("eventSafety.fxml");
+        System.out.println("eventStakeHolderCoordination.fxml");
 
     }
 

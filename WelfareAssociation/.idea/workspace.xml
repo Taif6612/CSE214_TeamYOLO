@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
     <list default="true" id="7196f643-04e2-4a81-a020-30269d8e60d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/BudgetSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/eventLogisticsSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/BudgetSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/eventBudgetSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/DashBoardSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/DashBoardSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/budgetScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/eventBudgetScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/eventLogisticsScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/eventLogisticsScene.fxml" afterDir="false" />
     </list>
-=======
-    <list default="true" id="7196f643-04e2-4a81-a020-30269d8e60d4" name="Changes" comment="" />
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,18 +67,12 @@
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-<<<<<<< Updated upstream
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "Fairooz",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Github/CSE214_TeamYOLO/WelfareAssociation",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.pluginManager"
-=======
-    "git-widget-placeholder": "Tasrif",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Github/CSE214_TeamYOLO/WelfareAssociation",
-    "node.js.selected.package.tslint": "(autodetect)"
->>>>>>> Stashed changes
   }
 }]]></component>
   <component name="RunManager">
