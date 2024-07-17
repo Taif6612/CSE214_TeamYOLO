@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7196f643-04e2-4a81-a020-30269d8e60d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/welfareassociation/welfareassociation/BGMEAOfficer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/BGMEAOfficer.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/HRDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/welfareassociation/welfareassociation/HRDashboard.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Enam",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Github/CSE214_TeamYOLO/WelfareAssociation",
     "node.js.selected.package.tslint": "(autodetect)",
