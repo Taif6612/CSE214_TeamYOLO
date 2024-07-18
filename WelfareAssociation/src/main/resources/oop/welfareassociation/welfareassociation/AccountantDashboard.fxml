@@ -1,22 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.MenuButton?>
-<?import javafx.scene.control.MenuItem?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="294.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.welfareassociation.welfareassociation.AccountantDashboard">
+<AnchorPane prefHeight="624.0" prefWidth="944.0" style="-fx-background-color: lavender;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.welfareassociation.welfareassociation.AccountantDashboard">
 <children>
-    <MenuButton fx:id="acountantComboBox" layoutX="50" layoutY="50" text="Accountant Actions">
-        <items>
-            <MenuItem fx:id="updateFinanceButton" onAction="#handleUpdateFinance" text="Update Finance or Accounts Record" />
-            <MenuItem fx:id="makeStatementButton" onAction="#handleMakeStatement" text="Make Statement of Monthly and Yearly Cost" />
-            <MenuItem fx:id="viewProfitLossButton" onAction="#handleViewProfitLoss" text="View Monthly Profit/Loss Charts" />
-            <MenuItem fx:id="budgetManagementButton" onAction="#handleBudgetManagement" text="Budget Management" />
-            <MenuItem fx:id="prepareSalariesButton" onAction="#handlePrepareSalaries" text="Prepare Salaries for Staff" />
-            <MenuItem fx:id="sendRecommendationsButton" onAction="#handleSendRecommendations" text="Send Financial Recommendations to President" />
-            <MenuItem fx:id="manageTransactionsButton" onAction="#handleManageTransactions" text="Manage Financial Transactions" />
-            <MenuItem fx:id="viewRevenueButton" onAction="#handleViewRevenue" text="View Total Revenue" />
-        </items>
-    </MenuButton>
+    <AnchorPane prefHeight="624.0" prefWidth="243.0" style="-fx-background-color: #05071F;" stylesheets="@../../../../New%20folder/style.css">
+        <children>
+            <ImageView fitHeight="89.0" fitWidth="109.0" layoutX="75.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../../../New%20folder/images/11zon_cropped.png" />
+                </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutY="132.0" prefHeight="18.0" prefWidth="238.0" stylesheets="@../../../../New%20folder/style.css" text="Tasrif Mahmud" textFill="#e7e5e5" />
+            <Button graphicTextGap="22.0" layoutX="-1.0" layoutY="167.0" mnemonicParsing="false" onAction="#DashboardButtonOnClicked" prefHeight="42.0" prefWidth="250.0" stylesheets="@../../../../New%20folder/style.css" text="Dashboard" textFill="#e7e5e5">
+                <opaqueInsets>
+                    <Insets />
+                </opaqueInsets>
+                <padding>
+                    <Insets left="50.0" />
+                </padding>
+            </Button>
+            <Button alignment="CENTER" graphicTextGap="22.0" layoutX="-1.0" layoutY="465.0" mnemonicParsing="false" onAction="#signoutButtonOnClicked" prefHeight="42.0" prefWidth="250.0" stylesheets="@../../../../New%20folder/style.css" text="Sign Out">
+                <padding>
+                    <Insets left="50.0" />
+                </padding>
+            </Button>
+            <Button alignment="CENTER" graphicTextGap="22.0" layoutX="2.0" layoutY="209.0" mnemonicParsing="false" onAction="#updateFinanceButtonOnClicked" prefHeight="42.0" prefWidth="250.0" stylesheets="@../../../../New%20folder/style.css" text="Update Finance">
+                <padding>
+                    <Insets left="50.0" />
+                </padding>
+            </Button>
+            <Button alignment="CENTER" graphicTextGap="22.0" layoutY="258.0" mnemonicParsing="false" onAction="#makeStatementsButtonOnClicked" prefHeight="42.0" prefWidth="250.0" stylesheets="@../../../../New%20folder/style.css" text="  Make Statement" textFill="#896262">
+                <padding>
+                    <Insets left="50.0" />
+                </padding>
+            </Button>
+            <Button alignment="CENTER" graphicTextGap="22.0" layoutX="1.0" layoutY="303.0" mnemonicParsing="false" onAction="#profitLossChartsButtonOnClicked" prefHeight="42.0" prefWidth="250.0" stylesheets="@../../../../New%20folder/style.css" text="Profit/Loss Chart">
+                <padding>
+                    <Insets left="50.0" />
+                </padding>
+            </Button>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="51.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../../../New%20folder/images/risk.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="51.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../../../New%20folder/images/icons8_Home_32px.png" />
+                </image>
+            </ImageView>
+            <Button alignment="CENTER" graphicTextGap="22.0" layoutY="346.0" mnemonicParsing="false" onAction="#budgetManagementButtonOnClicked" prefHeight="42.0" prefWidth="250.0" stylesheets="@../../../../New%20folder/style.css" text="Budget Management">
+                <padding>
+                    <Insets left="50.0" />
+                </padding>
+            </Button>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="51.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../../../New%20folder/images/icons8-budget-management-64.png" />
+                </image>
+            </ImageView>
+            <Button alignment="CENTER" graphicTextGap="22.0" layoutY="389.0" mnemonicParsing="false" onAction="#prepareSalariesButtonOnClicked" prefHeight="42.0" prefWidth="250.0" stylesheets="@../../../../New%20folder/style.css" text="Salary">
+                <padding>
+                    <Insets left="50.0" />
+                </padding>
+            </Button>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="51.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../../../New%20folder/images/icons8-salary-48.png" />
+                </image>
+            </ImageView>
+            <Button alignment="CENTER" graphicTextGap="22.0" layoutX="-1.0" layoutY="427.0" mnemonicParsing="false" onAction="#manageTransactionsButtonOnClicked" prefHeight="42.0" prefWidth="250.0" stylesheets="@../../../../New%20folder/style.css" text="Manage Transaction">
+                <padding>
+                    <Insets left="50.0" />
+                </padding>
+            </Button>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="52.0" layoutY="437.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../../../New%20folder/images/icons8-transactions-64.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="51.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../../../New%20folder/images/icons8_Sign_Out_32px.png" />
+                </image>
+            </ImageView>
+              <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="52.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                      <Image url="@../../../../New%20folder/images/icons8-update-64.png" />
+                  </image>
+              </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="53.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../../../New%20folder/images/icons8-statement-64.png" />
+                </image>
+            </ImageView>
+        </children>
+    </AnchorPane>
+    <TextField layoutX="746.0" layoutY="27.0" prefHeight="27.0" prefWidth="183.0" promptText="search" style="-fx-background-color: lavender; -fx-border-color: #B7C3D7; -fx-border-radius: 2em;" />
+    <ImageView fitHeight="17.0" fitWidth="16.0" layoutX="906.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../../../../New%20folder/images/icons8_Search_52px.png" />
+        </image>
+    </ImageView>
+    <AnchorPane layoutX="260.0" layoutY="80.0" prefHeight="89.0" prefWidth="150.0">
+        <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="18.0" prefWidth="150.0" style="-fx-font: #CCCCFF;" text=" Total Revenue This Year" wrapText="true">
+                <font>
+                    <Font name="System Bold" size="12.0" />
+                </font>
+                <effect>
+                    <Glow />
+                </effect>
+            </Label>
+            <Label layoutX="32.0" layoutY="45.0" text="BDT 1,000,000" wrapText="true" />
+        </children>
+    </AnchorPane>
+    <AnchorPane layoutX="439.0" layoutY="80.0" prefHeight="89.0" prefWidth="150.0">
+        <children>
+            <Label alignment="CENTER" layoutY="14.0" prefHeight="18.0" prefWidth="150.0" text="Total Revenue Last Year" wrapText="true">
+                <font>
+                    <Font name="System Bold" size="12.0" />
+                </font>
+            </Label>
+            <Label layoutX="32.0" layoutY="45.0" text="BDT 1,000,000" wrapText="true" />
+        </children>
+    </AnchorPane>
+    <AnchorPane layoutX="604.0" layoutY="80.0" prefHeight="89.0" prefWidth="150.0">
+        <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="18.0" prefWidth="150.0" text="Revenue Growth Rate" wrapText="true">
+                <font>
+                    <Font name="System Bold" size="12.0" />
+                </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="2.0" layoutY="45.0" prefHeight="18.0" prefWidth="144.0" text="10%" wrapText="true" />
+        </children>
+    </AnchorPane>
+    <AnchorPane layoutX="772.0" layoutY="80.0" prefHeight="89.0" prefWidth="150.0">
+        <children>
+            <Label alignment="CENTER" layoutY="14.0" prefHeight="18.0" prefWidth="150.0" text="Average Monthly Revenue" wrapText="true">
+                <font>
+                    <Font name="System Bold" size="12.0" />
+                </font>
+            </Label>
+            <Label layoutX="32.0" layoutY="45.0" text="BDT 1,000,000" wrapText="true" />
+        </children>
+    </AnchorPane>
+    <LineChart layoutX="347.0" layoutY="210.0" title="Monthly Revenue Trends">
+        <xAxis>
+            <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+            <NumberAxis side="LEFT" />
+        </yAxis>
+    </LineChart>
 </children>
+<effect>
+    <ColorAdjust />
+</effect>
 </AnchorPane>
